@@ -67,7 +67,7 @@ xticks(unique(round(xlabels)));
 
 saveas(gcf, sprintf('%s.png', filename));
 
-% compute rate of convergence (expect alpha = 2)
+% compute rate of convergence
 a = calculateConvergence(n, err);
 
 figure
